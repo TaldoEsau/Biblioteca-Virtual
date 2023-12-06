@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --gradient: linear-gradient(
+        to right,
+        rgb(143 114 252 ),
+        rgb(67 231 173 ),
+        rgb(23 212 92 )
+    )
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(
+        to top left,#48d2e4,#61a361  
+    );
+    display: grid;
+}
+
+ul{
+    background-image: linear-gradient(
+        to top left, #21a8b9,#bbd8bb);
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.container { 
+    width: 80%;
+    margin: 0 auto;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  background-color: rgba(236, 234, 234, 0.2); /* Cor de fundo com opacidade para criar o efeito de vidro fosco */
+  border-radius: 10px; /* Borda arredondada para melhorar a aparência */
+  backdrop-filter: blur(10px); /
+}
+
+.hmain {
+    text-align: center;
+    
+    font-family: cursive;
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    font-size: 60px;
+    
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-menu li a:hover {
+    color: #555;
+}
+
+header{
+    margin-top: 20px;
+}
+
+h2{
+    font-family: serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: rgba(129, 129, 129, 0.1);
+    border-radius: 0 10px;
+    margin: 50px 10px 40px 4px;
+    color: beige;
+}
+
